@@ -1,0 +1,38 @@
+body {
+	margin:0px;
+	font-family: 'Roboto', sans-serif;
+	.container {
+		background-color:purple;
+		max-width: 95%;
+		.work {
+			.row {
+				background-color: green;
+				.col {
+					padding: 0px;
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+		.footer {
+			text-align: center;
+			.contact{
+				display: flex;
+				justify-content: center;
+				div {
+					background-color: green;
+					border-radius: 50px;
+					width: 50px;
+					height: 50px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					a ion-icon {
+						font-size:30px;
+					}
+				}
+			}
+		}
+	}
+}

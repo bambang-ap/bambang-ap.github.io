@@ -1,0 +1,7 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "sass":"sass --watch sass/master.scss assets/style.css"
+  }
+}
