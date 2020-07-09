@@ -1,3 +1,19 @@
+const onResize = () => {
+  let selector = $('.work .experience .col')
+  let { outerWidth: width, outerHeight: height } = window
+  if (!selector.length > 0) {
+    setTimeout(onResize, 500)
+    return
+  }
+  selector.attr('class', 'col')
+  if (width < 768) {
+    selector.addClass('col-12')
+  } else if (width < 900) {
+    selector.addClass('col-6')
+  } else {
+    selector.addClass('col-4')
+  }
+}
 function includeHTML() {
   var z, i, elmnt, file, xhttp
   /* Loop through a collection of all HTML elements: */

@@ -6,24 +6,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="icon" type="image/png" href="assets/images/pavicon.png" />
-		<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap"> -->
+		<link rel="stylesheet" href="assets/font.css">
 		<link rel="stylesheet" href="assets/style.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<!-- <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script> -->
-		<script src="https://code.jquery.com/jquery-1.12.4.js"
-			integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="assets/bootstrap.min.css">
+		<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+		<script src="assets/jquery-1.12.4.js"></script>
+		<script src="assets/functions.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<title>Bambang Adhitya Profile</title>
 	</head>
 	<!-- Contoh Porto https://mattfarley.ca/ -->
 
-	<body>
-		<script src="assets/functions.js"></script>
+	<body onResize="onResize()">
 		<script src="assets/scripts.js"></script>
-		<div class="container">
-			<div class="profile" include-html src="html/profile.html"></div>
-			<div class="work" include-html src="html/work.html"></div>
-			<div class="footer" include-html src="html/footer.html"></div>
-		</div>
+		<div class="profile" include-html src="html/profile.html"></div>
+		<div class="work" include-html src="html/work.html"></div>
+		<div class="footer" include-html src="html/footer.html"></div>
 	</body>
 
 </html>

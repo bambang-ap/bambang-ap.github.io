@@ -1,38 +1,126 @@
 body {
   margin: 0px;
   font-family: "Roboto", sans-serif;
+  color: white;
 }
-body .container {
-  background-color: purple;
-  max-width: 95%;
+body a:hover {
+  text-decoration: none;
 }
-body .container .work .row {
+body .profile .introduction {
   background-color: green;
-}
-body .container .work .row .col {
-  padding: 0px;
-}
-body .container .work .row .col img {
-  width: 100%;
-}
-body .container .footer {
+  padding-top: 50px;
+  padding-bottom: 150px;
   text-align: center;
 }
-body .container .footer .contact {
+body .profile .skills {
+  margin-top: -100px;
+  background-color: white;
+  border: solid 1px grey;
+  border-radius: 12px;
+}
+body .profile .skills .col {
+  margin: 20px;
+  text-align: center;
+}
+body .profile .skills .col ion-icon {
+  font-size: 40px;
+}
+body .work .row {
+  margin-top: 15px;
+}
+body .work .row .col .wrapper {
+  margin-bottom: 30px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+body .work .row .col .wrapper img {
+  width: 100%;
+  border-radius: 12px;
+  transition: 0.5s;
+}
+body .work .row .col .wrapper .hover-content {
+  position: absolute;
+  color: white;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+  transition: 0.75s;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  background-color: black;
+}
+body .work .row .col .wrapper .hover-content.active {
+  opacity: 1;
+}
+body .work .rows {
+  background-color: green;
+}
+body .work .rows .col {
+  padding: 0px;
+}
+body .work .rows .col .wrapper {
+  width: 30vw;
+  height: 30vh;
+  position: relative;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+body .work .rows .col .wrapper img {
+  width: 100%;
+}
+body .work .rows .col .wrapper .hover-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  transition: 1s;
+}
+body .work .rows .col .wrapper .hover-content.active {
+  opacity: 1;
+}
+body .footer {
+  text-align: center;
+  background-color: green;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+body .footer ion-icon {
+  font-size: 30px;
+}
+body .footer .contact {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
-body .container .footer .contact div {
-  background-color: green;
+body .footer .contact a {
+  border: grey solid 1px;
   border-radius: 50px;
+  margin-right: 10px;
   width: 50px;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+  transition: 0.5s;
 }
-body .container .footer .contact div a ion-icon {
-  font-size: 30px;
+body .footer .contact a:hover {
+  color: grey;
+  background-color: white;
+  border: white;
 }
 
 /*# sourceMappingURL=style.css.map */
