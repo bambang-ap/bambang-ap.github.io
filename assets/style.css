@@ -1,10 +1,323 @@
+* {
+  font-size: 1rem;
+  color: #959595;
+}
+
 body {
   margin: 0px;
-  font-family: "Roboto", sans-serif;
-  color: white;
 }
 body a:hover {
   text-decoration: none;
+}
+body .font-blue {
+  color: #4672C6 !important;
+}
+body .font-white {
+  color: white !important;
+}
+body .font-title {
+  color: #6A6A6A;
+  font-weight: 500;
+}
+body .font-default {
+  color: #959595 !important;
+}
+body .font-1 {
+  font-size: 0.1rem;
+}
+body .font-2 {
+  font-size: 0.2rem;
+}
+body .font-3 {
+  font-size: 0.3rem;
+}
+body .font-4 {
+  font-size: 0.4rem;
+}
+body .font-5 {
+  font-size: 0.5rem;
+}
+body .font-6 {
+  font-size: 0.6rem;
+}
+body .font-7 {
+  font-size: 0.7rem;
+}
+body .font-8 {
+  font-size: 0.8rem;
+}
+body .font-9 {
+  font-size: 0.9rem;
+}
+body .font-10 {
+  font-size: 1rem;
+}
+body .font-11 {
+  font-size: 1.1rem;
+}
+body .font-12 {
+  font-size: 1.2rem;
+}
+body .font-13 {
+  font-size: 1.3rem;
+}
+body .font-14 {
+  font-size: 1.4rem;
+}
+body .font-15 {
+  font-size: 1.5rem;
+}
+body .font-16 {
+  font-size: 1.6rem;
+}
+body .font-17 {
+  font-size: 1.7rem;
+}
+body .font-18 {
+  font-size: 1.8rem;
+}
+body .font-19 {
+  font-size: 1.9rem;
+}
+body .font-20 {
+  font-size: 2rem;
+}
+body .font-21 {
+  font-size: 2.1rem;
+}
+body .font-22 {
+  font-size: 2.2rem;
+}
+body .font-23 {
+  font-size: 2.3rem;
+}
+body .font-24 {
+  font-size: 2.4rem;
+}
+body .font-25 {
+  font-size: 2.5rem;
+}
+body .font-26 {
+  font-size: 2.6rem;
+}
+body .font-27 {
+  font-size: 2.7rem;
+}
+body .font-28 {
+  font-size: 2.8rem;
+}
+body .font-29 {
+  font-size: 2.9rem;
+}
+body .font-30 {
+  font-size: 3rem;
+}
+body .font-31 {
+  font-size: 3.1rem;
+}
+body .font-32 {
+  font-size: 3.2rem;
+}
+body .font-33 {
+  font-size: 3.3rem;
+}
+body .font-34 {
+  font-size: 3.4rem;
+}
+body .font-35 {
+  font-size: 3.5rem;
+}
+body .font-36 {
+  font-size: 3.6rem;
+}
+body .font-37 {
+  font-size: 3.7rem;
+}
+body .font-38 {
+  font-size: 3.8rem;
+}
+body .font-39 {
+  font-size: 3.9rem;
+}
+body .font-40 {
+  font-size: 4rem;
+}
+body .font-41 {
+  font-size: 4.1rem;
+}
+body .font-42 {
+  font-size: 4.2rem;
+}
+body .font-43 {
+  font-size: 4.3rem;
+}
+body .font-44 {
+  font-size: 4.4rem;
+}
+body .font-45 {
+  font-size: 4.5rem;
+}
+body .font-46 {
+  font-size: 4.6rem;
+}
+body .font-47 {
+  font-size: 4.7rem;
+}
+body .font-48 {
+  font-size: 4.8rem;
+}
+body .font-49 {
+  font-size: 4.9rem;
+}
+body .font-50 {
+  font-size: 5rem;
+}
+body .font-51 {
+  font-size: 5.1rem;
+}
+body .font-52 {
+  font-size: 5.2rem;
+}
+body .font-53 {
+  font-size: 5.3rem;
+}
+body .font-54 {
+  font-size: 5.4rem;
+}
+body .font-55 {
+  font-size: 5.5rem;
+}
+body .font-56 {
+  font-size: 5.6rem;
+}
+body .font-57 {
+  font-size: 5.7rem;
+}
+body .font-58 {
+  font-size: 5.8rem;
+}
+body .font-59 {
+  font-size: 5.9rem;
+}
+body .font-60 {
+  font-size: 6rem;
+}
+body .font-61 {
+  font-size: 6.1rem;
+}
+body .font-62 {
+  font-size: 6.2rem;
+}
+body .font-63 {
+  font-size: 6.3rem;
+}
+body .font-64 {
+  font-size: 6.4rem;
+}
+body .font-65 {
+  font-size: 6.5rem;
+}
+body .font-66 {
+  font-size: 6.6rem;
+}
+body .font-67 {
+  font-size: 6.7rem;
+}
+body .font-68 {
+  font-size: 6.8rem;
+}
+body .font-69 {
+  font-size: 6.9rem;
+}
+body .font-70 {
+  font-size: 7rem;
+}
+body .font-71 {
+  font-size: 7.1rem;
+}
+body .font-72 {
+  font-size: 7.2rem;
+}
+body .font-73 {
+  font-size: 7.3rem;
+}
+body .font-74 {
+  font-size: 7.4rem;
+}
+body .font-75 {
+  font-size: 7.5rem;
+}
+body .font-76 {
+  font-size: 7.6rem;
+}
+body .font-77 {
+  font-size: 7.7rem;
+}
+body .font-78 {
+  font-size: 7.8rem;
+}
+body .font-79 {
+  font-size: 7.9rem;
+}
+body .font-80 {
+  font-size: 8rem;
+}
+body .font-81 {
+  font-size: 8.1rem;
+}
+body .font-82 {
+  font-size: 8.2rem;
+}
+body .font-83 {
+  font-size: 8.3rem;
+}
+body .font-84 {
+  font-size: 8.4rem;
+}
+body .font-85 {
+  font-size: 8.5rem;
+}
+body .font-86 {
+  font-size: 8.6rem;
+}
+body .font-87 {
+  font-size: 8.7rem;
+}
+body .font-88 {
+  font-size: 8.8rem;
+}
+body .font-89 {
+  font-size: 8.9rem;
+}
+body .font-90 {
+  font-size: 9rem;
+}
+body .font-91 {
+  font-size: 9.1rem;
+}
+body .font-92 {
+  font-size: 9.2rem;
+}
+body .font-93 {
+  font-size: 9.3rem;
+}
+body .font-94 {
+  font-size: 9.4rem;
+}
+body .font-95 {
+  font-size: 9.5rem;
+}
+body .font-96 {
+  font-size: 9.6rem;
+}
+body .font-97 {
+  font-size: 9.7rem;
+}
+body .font-98 {
+  font-size: 9.8rem;
+}
+body .font-99 {
+  font-size: 9.9rem;
 }
 body .profile .title {
   text-align: center;
@@ -13,26 +326,34 @@ body .profile .title {
 body .profile .title .subtitle {
   margin: 20px 0 50px;
 }
-body .profile .title img {
+body .profile .title .computer svg {
   max-width: 100%;
+  height: 100%;
+  margin-bottom: -6px;
 }
 body .profile .introduction {
-  background-color: green;
+  background-color: #4672C6;
   padding-top: 50px;
   padding-bottom: 150px;
   text-align: center;
 }
+body .profile .introduction * {
+  color: white;
+}
 body .profile .skills {
   margin-top: -100px;
   background-color: white;
-  border: solid 1px grey;
+  border: solid 1px #959595;
   border-radius: 12px;
+}
+body .profile .skills * {
+  color: #959595;
 }
 body .profile .skills .col {
   margin: 20px;
   text-align: center;
 }
-body .profile .skills .col ion-icon {
+body .profile .skills .col .fa {
   font-size: 2rem;
 }
 body .work {
@@ -70,13 +391,13 @@ body .work .row .col .wrapper .hover-content {
   display: flex;
   flex-direction: column;
   top: 0;
-  background-color: black;
+  background-color: #213b6b;
 }
 body .work .row .col .wrapper .hover-content.active {
   opacity: 1;
 }
 body .work .rows {
-  background-color: green;
+  background-color: #4672C6;
 }
 body .work .rows .col {
   padding: 0px;
@@ -108,9 +429,11 @@ body .work .rows .col .wrapper .hover-content.active {
 }
 body .footer {
   text-align: center;
-  background-color: green;
+  background-color: #4672C6;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+body .footer * {
   color: white;
 }
 body .footer ion-icon {
@@ -122,7 +445,7 @@ body .footer .contact {
   margin-top: 20px;
 }
 body .footer .contact a {
-  border: grey solid 1px;
+  border: white solid 1px;
   border-radius: 50px;
   margin-right: 10px;
   width: 50px;
@@ -134,7 +457,7 @@ body .footer .contact a {
   transition: 0.5s;
 }
 body .footer .contact a:hover {
-  color: grey;
+  color: #4672C6;
   background-color: white;
   border: white;
 }
