@@ -6,6 +6,13 @@ body {
 body a:hover {
   text-decoration: none;
 }
+body .profile .title {
+  text-align: center;
+  margin-top: 50px;
+}
+body .profile .title .subtitle {
+  margin: 20px 0 50px;
+}
 body .profile .introduction {
   background-color: green;
   padding-top: 50px;
@@ -23,7 +30,13 @@ body .profile .skills .col {
   text-align: center;
 }
 body .profile .skills .col ion-icon {
-  font-size: 40px;
+  font-size: 2rem;
+}
+body .work {
+  text-align: center;
+}
+body .work h2 {
+  margin: 20px 0 20px;
 }
 body .work .row {
   margin-top: 15px;
@@ -47,7 +60,7 @@ body .work .row .col .wrapper .hover-content {
   height: 100%;
   z-index: 99;
   padding: 20px;
-  font-size: 14px;
+  font-size: 1rem;
   text-align: center;
   transition: 0.75s;
   justify-content: center;
@@ -98,7 +111,7 @@ body .footer {
   color: white;
 }
 body .footer ion-icon {
-  font-size: 30px;
+  font-size: 3rem;
 }
 body .footer .contact {
   display: flex;

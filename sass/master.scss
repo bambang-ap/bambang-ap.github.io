@@ -6,6 +6,13 @@ body {
 		text-decoration: none;
 	}
 	.profile {
+		.title {
+			text-align: center;
+			margin-top: 50px;
+			.subtitle {
+				margin: 20px 0 50px;
+			}
+		}
 		.introduction {
 			background-color: green;
 			padding-top: 50px;
@@ -21,12 +28,16 @@ body {
 					margin: 20px;
 				text-align: center;
 				ion-icon {
-					font-size: 40px;
+					font-size: 2rem;
 				}
 			}
 		}
 	}
 	.work {
+		text-align: center;
+		h2 {
+			margin: 20px 0 20px; 
+		}
 		.row {
 			margin-top:15px;
 			.col {
@@ -51,7 +62,7 @@ body {
 						height: 100%;
 						z-index: 99;
 						padding: 20px;
-						font-size: 14px;
+						font-size: 1rem;
 						text-align: center;
 						transition: .75s;
 						justify-content: center;
@@ -102,7 +113,7 @@ body {
 		padding-bottom: 50px;
 		color: white;
 		ion-icon {
-			font-size:30px;
+			font-size:3rem;
 		}
 		.contact{
 			display: flex;
