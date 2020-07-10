@@ -13,6 +13,9 @@ body .profile .title {
 body .profile .title .subtitle {
   margin: 20px 0 50px;
 }
+body .profile .title img {
+  max-width: 100%;
+}
 body .profile .introduction {
   background-color: green;
   padding-top: 50px;
