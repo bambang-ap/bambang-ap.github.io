@@ -1,0 +1,74 @@
+{
+  "title": "JavaScript & Mobile Hybrid Developer",
+  "subtitle": "I code eautifully simple things, and I love what I do.",
+  "intro": "Hi, I'm Bambang. Nice to meet you",
+  "description": "Sejak memulai perjalanan sebagai Programmer di tahun 2015, saya telah bekerja di berbagai perusahaan di Jakarta dan mengerjakan beberapa project freelance. Saya cukup percaya diri, ingin tahu, dan terus berupaya memperbaiki masalah yang saya hadapi melalui coding.",
+  "skills": [
+    {
+			"title": "Mobile Hybrid Developer",
+			"icon": "file-code-o",
+      "detail": "I always trying to solve problem with code.",
+      "partTitle": "Language & Framework I use:",
+      "part": "HTML, JSX, CSS, JavaScript, Ionic, Cordova, React-Native",
+      "devTools": [
+        "Sublime Text 3",
+				"VSCode",
+				"Genymotion",
+        "Terminal"
+      ]
+    },
+    {
+			"title": "Mobile Hybrid Developer",
+			"icon": "file-code-o",
+      "detail": "I always trying to solve problem with code.",
+      "partTitle": "Language & Framework I use:",
+      "part": "HTML, JSX, CSS, JavaScript, Ionic, Cordova, React-Native",
+      "devTools": [
+        "Sublime Text 3",
+				"VSCode",
+				"Genymotion",
+        "Terminal"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "image": "https://mattfarley.ca/img/projects/wfdesignbuild.png",
+      "detail": "kjdsf 1111"
+    },
+    {
+      "image": "https://mattfarley.ca/img/projects/wfdesignbuild.png",
+      "detail": "kjdsf 2222"
+    },
+    {
+      "image": "https://mattfarley.ca/img/projects/wfdesignbuild.png",
+      "detail": "kjdsf 3333"
+    }
+  ],
+  "footer": {
+    "contact": [
+      {
+        "href": "https://instagram.com/aprakoso98",
+        "icon": "instagram"
+      },
+      {
+        "href": "https://facebook.com/aprakoso98",
+        "icon": "facebook"
+      },
+      {
+        "href": "https://linkedin.com/in/aprakoso98",
+        "icon": "linkedin"
+      },
+      {
+        "href": "https://github.com/aprakoso98",
+        "icon": "github"
+      },
+      {
+        "href": "mailto:adhyt.scott@gmail.com",
+        "icon": "envelope"
+      }
+    ],
+    "logo": "<ion-icon name='logo-javascript'></ion-icon>",
+    "quote": "Living, learning, & leveling up one day at a time."
+  }
+}

@@ -7,30 +7,68 @@ $background: darken($blue, 25);
 	font-size: 1rem;
 	color: $font;
 }
+.padding {
+	@for $var from 1 to 50 {
+		&-#{$var} {
+			padding: #{$var * .1}em;
+		}
+		&-top-#{$var} {
+			padding-top: #{$var * .1}em;
+		}
+		&-right-#{$var} {
+			padding-right: #{$var * .1}em;
+		}
+		&-bottom-#{$var} {
+			padding-bottom: #{$var * .1}em;
+		}
+		&-left-#{$var} {
+			padding-left: #{$var * .1}em;
+		}
+	}
+}
+.margin {
+	@for $var from 1 to 50 {
+		&-#{$var} {
+			margin: #{$var * .1}em;
+		}
+		&-top-#{$var} {
+			margin-top: #{$var * .1}em;
+		}
+		&-right-#{$var} {
+			margin-right: #{$var * .1}em;
+		}
+		&-bottom-#{$var} {
+			margin-bottom: #{$var * .1}em;
+		}
+		&-left-#{$var} {
+			margin-left: #{$var * .1}em;
+		}
+	}
+}
+.font {
+	&-blue {
+		color: $blue !important;
+	}
+	&-white {
+		color: white !important;
+	}
+	&-title {
+		color: $fontTitle;
+		font-weight: 500;
+	}
+	&-default {
+		color: $font !important;
+	}
+	@for $var from 1 to 50 {
+		&-#{$var} {
+			font-size: #{$var * .1}rem;
+		}
+	}
+}
 body {
 	margin:0px;
 	a:hover {
 		text-decoration: none;
-	}
-	.font {
-		&-blue {
-			color: $blue !important;
-		}
-		&-white {
-			color: white !important;
-		}
-		&-title {
-			color: $fontTitle;
-			font-weight: 500;
-		}
-		&-default {
-			color: $font !important;
-		}
-		@for $var from 1 to 100 {
-			&-#{$var} {
-				font-size: #{$var * .1}rem;
-			}
-		}
 	}
 	.profile {
 		.title {
