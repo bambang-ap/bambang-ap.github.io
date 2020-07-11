@@ -8,19 +8,19 @@ const ajax = ({ url, type = 'GET', ...params }) => {
   })
 }
 const onResize = () => {
-  let selector = $('.work .experience .col')
+  let experience = $('.work .experience .col')
   let { outerWidth: width, outerHeight: height } = window
-  if (!selector.length > 0) {
+  if (!experience.length > 0) {
     setTimeout(onResize, 500)
     return
   }
-  selector.attr('class', 'col')
+  experience.attr('class', 'col')
   if (width < 768) {
-    selector.addClass('col-12')
+    experience.addClass('col-12')
   } else if (width < 900) {
-    selector.addClass('col-6')
+    experience.addClass('col-6')
   } else {
-    selector.addClass('col-4')
+    experience.addClass('col-4')
   }
 }
 const fillData = async () => {
@@ -38,30 +38,35 @@ const fillData = async () => {
         if (Array.isArray(data)) {
           const el = $(elmnt)
           if (key == 'work')
-            data.forEach(({ image, detail }) => el.append(
+            data.forEach(({ image, detail, more }) => el.append(
               $('<div class="col col-4">').html(
                 $('<div class="wrapper">')
                   .append(
                     $('<img id="image">').attr('src', image)
                   )
                   .append(
-                    $('<div id="detail" class="hover-content">').html(detail)
+                    $('<div id="detail" class="hover-content">').html(
+                      `<div class="work-detail">
+                        <div class="font-white">${detail.replace(/\n/g, '<br/>')}</div>
+                        ${more ? `<a target="_blank" href="${more}"><div class="more">Visit website</div></a>` : ''}
+                      </div>`
+                    )
                   )
               )
             ))
           else if (key == 'skills')
             data.forEach(({ title, detail, icon, partTitle, part, devTools }) => {
               const html = `
-              <div class="col">
+              <div class="col-md">
                 <i class="fa fa-${icon} font-blue margin-bottom-10"></i>
-                <div class="font-15 font-title">${title}</div>
+                <div class="font-15 font-title Regular">${title}</div>
                 <div class="margin-top-20 margin-bottom-20">${detail}</div>
                 <div>
-                  <div class="font-title font-11">${partTitle}</div>
+                  <div class="font-title Regular font-11">${partTitle}</div>
                   <div class="margin-top-20 margin-bottom-20">${part}</div>
                 </div>
                 <div>
-                  <div class="font-title font-11 margin-top-20 margin-bottom-20">Dev Tools:</div>
+                  <div class="font-title Regular font-11 margin-top-20 margin-bottom-20">Dev Tools:</div>
                   <div>${devTools.map(a => `<div>${a}</div>`).join('')}</div>
                 </div>
               </div>
@@ -76,7 +81,7 @@ const fillData = async () => {
               elemPart.html(part)
             else {
               part.forEach(({ icon, href }) => elemPart.append(
-                `<a href='${href}'>
+                `<a target="_blank" href='${href}'>
                 <i class='fa fa-${icon}'></i>
               </a>`
               ))
@@ -86,6 +91,7 @@ const fillData = async () => {
     }
   })
   setTimeout(() => {
+    onResize()
     $('.experience .col').hover(({ currentTarget: target, type }) => {
       let content = $(target)
       if (type == 'mouseenter') {

@@ -1,49 +1,74 @@
 {
   "title": "JavaScript & Mobile Hybrid Developer",
-  "subtitle": "I code eautifully simple things, and I love what I do.",
+  "subtitle": "I code beautifully simple things, and I love what I do.",
   "intro": "Hi, I'm Bambang. Nice to meet you",
-  "description": "Sejak memulai perjalanan sebagai Programmer di tahun 2015, saya telah bekerja di berbagai perusahaan di Jakarta dan mengerjakan beberapa project freelance. Saya cukup percaya diri, ingin tahu, dan terus berupaya memperbaiki masalah yang saya hadapi melalui coding.",
+  "description": "Since starting my journey as a Programmer in 2015, I have worked in various companies in Jakarta and worked on several freelance projects. I am quite confident, curious, and continue to work on fixing the problems I face through coding.",
   "skills": [
     {
-			"title": "Mobile Hybrid Developer",
+			"title": "JavaScript Developer",
 			"icon": "file-code-o",
       "detail": "I always trying to solve problem with code.",
-      "partTitle": "Language & Framework I use:",
-      "part": "HTML, JSX, CSS, JavaScript, Ionic, Cordova, React-Native",
+      "partTitle": "Language I use:",
+      "part": "HTML, JSX, CSS, JavaScript, TypeScript",
       "devTools": [
-        "Sublime Text 3",
 				"VSCode",
-				"Genymotion",
-        "Terminal"
+        "Sublime Text 3",
+        "yarn",
+        "SASS",
+				"Node.JS",
+        "Terminal",
+        "ESLint",
+        "Babel",
+        "Git",
+        "Tortoise GIT",
+        "Google Chrome",
+        "node inspect debugger",
+        "React",
+        "AngularJS"
       ]
     },
     {
 			"title": "Mobile Hybrid Developer",
-			"icon": "file-code-o",
-      "detail": "I always trying to solve problem with code.",
+			"icon": "mobile",
+      "detail": "Keep it simple with smartphone.",
       "partTitle": "Language & Framework I use:",
-      "part": "HTML, JSX, CSS, JavaScript, Ionic, Cordova, React-Native",
+      "part": "HTML, JSX, JavaScript, Ionic, Cordova, React-Native",
       "devTools": [
+        "VSCode",
+        "yarn",
         "Sublime Text 3",
-				"VSCode",
-				"Genymotion",
-        "Terminal"
+				"Node.JS",
+        "Terminal",
+        "ESLint",
+        "Babel",
+        "Git",
+        "Tortoise GIT",
+        "Google Chrome",
+        "node inspect debugger",
+        "React",
+        "AngularJS"
       ]
     }
   ],
   "work": [
     {
-      "image": "https://mattfarley.ca/img/projects/wfdesignbuild.png",
-      "detail": "kjdsf 1111"
+      "image": "assets/images/works/porto.png",
+      "detail": "<div class='font-white font-title font-13 Medium'>Static Web Portofolio</div>You are watching this project.",
+      "more": "https://github.com/aprakoso98/aprakoso98.github.io"
     },
     {
-      "image": "https://mattfarley.ca/img/projects/wfdesignbuild.png",
-      "detail": "kjdsf 2222"
+      "image": "assets/images/works/awan.png",
+      "detail": "<div class='font-white font-title font-13 Medium'>Awan Project</div>I worked on this project when I worked at PT. Dwimitra Raya Sejati uses React-Native."
     },
     {
-      "image": "https://mattfarley.ca/img/projects/wfdesignbuild.png",
-      "detail": "kjdsf 3333"
-    }
+      "image": "assets/images/works/hawada.png",
+      "detail": "<div class='font-white font-title font-13 Medium'>HAWADA - Water Refill Depot</div>This project is my friend's essay, and I use Ionic Framework to build it."
+    },
+    {
+      "image": "assets/images/works/apapo.png",
+      "detail": "<div class='font-white font-title font-13 Medium'>Layanan Paspor Online</div>I worked on this project when I worked at PT. Bertiga Mitra Solusi uses Ionic Framework.",
+      "more": "https://play.google.com/store/apps/details?id=id.go.imigrasi.layananwni&hl=in"
+    }    
   ],
   "footer": {
     "contact": [
@@ -69,6 +94,7 @@
       }
     ],
     "logo": "<ion-icon name='logo-javascript'></ion-icon>",
-    "quote": "Living, learning, & leveling up one day at a time."
+    "quote": "Living, learning, & leveling up one day at a time.",
+    "cv":"If you want to see my CV, click <a target='_blank' href='./cv.pdf' class='font-white font-underline cursor'>here</a>."
   }
 }
